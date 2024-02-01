@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(https://images.pexels.com/photos/601169/pexels-photo-601169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   image-resolution: 300dpi;
+   background-size: 100% 38%;
+   
+
+   
+  /*
+   
+  background-image: url(https://images.unsplash.com/photo-1560707303-4e980ce876ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c291cmNlfGVufDB8fDB8fHww);
+*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #060601;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #e8c919;
+    color: rgb(0, 0, 0);
+}
+
+.name {
+    padding-left: 40%;
+    color: aliceblue;
+font-weight: 900;
+
+    
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.marquee-container {
+    
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    color: rgb(248, 248, 248);
+    font-size: x-large;
+}
+
+.marquee {
+    display: inline-block;
+    animation: rightThenLeft 10s linear infinite;
+}
+
+@keyframes rightThenLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  
+  color: white;
+  font-size: 90px;
+}
+
+.form-container {
+    margin: 30%;
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+.container {
+    margin-bottom: 20px; /* Add margin to the card containers for separation */
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px; /* Adjust margin-bottom to reduce the gap between cards */
+}
+.bg-black {
+    background-color: black;
+    color: white;
+  }
